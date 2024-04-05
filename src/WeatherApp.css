@@ -1,0 +1,41 @@
+.container{
+    min-height: 500px;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 3rem;
+    border: 1px solid white;
+    background-color: rgba(15, 12, 12, 0.4);
+    overflow: hidden;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(222, 222, 239);
+    padding: 10px 20px 5px 20px ;
+}
+.fore{
+    margin-left: 2rem;
+}
+.icon{
+    color: #fafafd;
+    font-size: 2.5rem;
+}
+.title {
+    font-size: 1em;
+    font-family: serif;
+    line-height: 1px;
+    font-weight: 700;
+    color: transparent;
+    text-align: center;
+    animation:effect 2s linear infinite;
+    color: #ddddff;
+}
+.content{
+    margin-top: 1rem;
+}
+@media (max-width: 350px) {
+    .container {
+        width: 100%;
+    }
+}
